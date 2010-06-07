@@ -688,9 +688,9 @@ module TDiary
 
 		def default_tdiary_conf_path
 			if defined?( ::Rack )
-				"tdiary.conf.rack"
+				"config/tdiary.conf.rack"
 			else
-				"tdiary.conf"
+				"config/tdiary.conf"
 			end
 		end
 
